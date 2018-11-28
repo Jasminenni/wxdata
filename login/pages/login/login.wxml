@@ -1,0 +1,28 @@
+<!--pages/login/login.wxml-->
+<view class='base'>
+
+  <view class='nav'>
+    <swiper indicator-dots='true' indicator-active-color='black' autoplay='true' interval='3000'>
+    <block wx:for='{{navImg}}'>
+      <swiper-item><image src='{{item}}' class='img'></image></swiper-item>
+    </block>
+    </swiper>
+  </view>
+
+  <view class='top'>
+    <input placeholder='请输入你的名字' bindinput='nameInput'></input>
+    <input placeholder='请输入你的密码' password='false' bindinput='pwdinput'></input>
+  </view>
+  <view class='code'>
+    <input placeholder='请输入4位验证码' class='code1' bindfocus='recodeLog' bindinput='codeInput'></input>
+    <view class='code2' bindtap='recodeLog'>{{codeValue}}</view>
+  </view>
+  
+  <view class='foot'>
+    <view class='submit'>{{result}}</view>
+    <view class='zhuce' bindtap='zhuceClick'>用户注册</view>
+    <button bindtap='submitClick'>登录</button>
+  </view>
+
+
+</view>

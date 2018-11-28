@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view class='base'> 
+  <view class='top'>
+    电话簿
+  </view>
+  <view class='content'>
+  <block wx:for='{{studata}}'>
+  <view class='row' wx:if="{{index%2==0}}">
+    <view class='img'><image src='{{item.img}}' class='img1'></image></view>
+    <view class='name'>{{item.name}}</view>
+    <view bindtap='phoneClick' data-ph='{{item.phone}}'><image src='../images/Phone.png' class='img2'></image></view>
+    <view bindtap='emailClick' data-email='{{item.email}}'><image src='../images/email.png'class='img2'></image></view>
+    <view><image src='../images/mess.png'class='img2'></image></view>
+  </view>
+
+  <view class='row1' wx:else>
+    <view class='img'><image src='{{item.img}}' class='img1'></image></view>
+    <view class='name'>{{item.name}}</view>
+    <view bindtap='phoneClick' data-ph='{{item.phone}}'><image src='../images/Phone.png' class='img2'></image></view>
+    <view bindtap='emailClick' data-email='{{item.email}}'><image src='../images/email.png'class='img2'></image></view>
+    <view><image src='../images/mess.png'class='img2'></image></view>
+  </view>
+  </block>
+  </view>
+</view>

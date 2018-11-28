@@ -1,0 +1,12 @@
+<!--pages/email/email.wxml-->
+<view class='base'>
+  <view class='tital' >  
+    <input placeholder='请输入发信题目' bindinput='titleInput' ></input>
+  </view>
+  <view class='content'>
+    <textarea class='text' bindinput='conText'></textarea>
+  </view>
+  <view class='foot'>
+    <button bindtap='submitClick'>发送</button>
+  </view>
+</view>

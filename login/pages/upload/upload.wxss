@@ -1,0 +1,24 @@
+/* pages/upload/upload.wxss */
+.base{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img{
+  width: 100%;
+  height: 400rpx;
+  border: 1px solid #f00;
+  margin-left: 20rpx;
+}
+.img1{
+ 
+  height: 100%;
+}
+button{
+  width: 300rpx;
+  height: 100rpx;
+  font-size: 14px;
+  line-height: 100rpx;
+  margin-top: 20rpx;
+}

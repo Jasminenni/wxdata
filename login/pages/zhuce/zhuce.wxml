@@ -1,0 +1,30 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class='base'>
+  <view class='title'>注册</view>
+  <view class='content'>
+    <view class='name'>
+      <view class='img'>
+          <image class='img1' src='{{tempPath}}'></image>
+          <view  class='add' bindtap='addImg'><label>点击选择上传的图片</label></view>
+     </view>
+    </view>
+    <view class='conter'>
+        
+        <input placeholder='请输入您的姓名' bindinput='nameInput' bindblur='nameblur' ></input>
+
+        <view class='sex'>
+          <label>请选择性别：</label>
+              <radio-group  bindchange="radiosex">
+                  <radio value='男' color='#f00'>男</radio>
+                  <radio value='女' color='#f00'>女</radio>
+              </radio-group>
+        </view>
+
+        <input password='password' placeholder='请输入您的密码' class='input1' bindinput='pwdInput'></input>
+        <!-- bindinput="radiosex" -->
+        <view class='rezhuce'>{{text}}</view>
+        <button class='zhuceClick' bindtap='zhuceClick'>立即注册</button>
+    </view>
+  </view>
+
+</view>

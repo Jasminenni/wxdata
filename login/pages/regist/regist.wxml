@@ -1,0 +1,15 @@
+<!--pages/regist/regist.wxml-->
+<view class='basc'>
+  <view class='top'>注册</view>
+  <view class='center'>
+      <view class='load'></view>
+      <view class='name'>
+      
+      </view>
+  </view>
+  <view class='middle'></view>
+
+  <view class='foot'>
+    <button>立即注册</button>
+  </view>
+</view>

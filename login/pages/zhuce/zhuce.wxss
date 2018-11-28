@@ -1,0 +1,88 @@
+/* pages/zhuce/zhuce.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 115, 0);
+}
+.title{
+  width: 100%;
+  height:8%;
+  /* border-bottom: 1px solid #fc0; */
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 30rpx;
+  padding-top: 30rpx;
+}
+.content{
+  width: 100%;
+  height: 90%;
+  background-color: rgba(250, 248, 248,0.4);
+}
+.img{
+  width: 100%;
+  height: 300rpx;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 20rpx;
+}
+.img1{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 1px solid rgb(251, 249, 152);
+}
+.add{
+  margin-top: 10rpx;
+  border: 1px solid rgb(255, 196, 0);
+  border-radius: 10rpx;
+  background: rgba(252, 251, 249, 0.849);
+  padding-left:20rpx;
+  padding-right: 20rpx;
+  color: rgb(59, 58, 58);
+}
+.img label{
+  font-size: 13px;
+}
+.conter{
+  width: 100%;
+  height: 720rpx;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 20rpx;
+}
+.conter input{
+  width: 620rpx;
+  height: 110rpx;
+  background-color: #fff;
+  margin-top: 40rpx;
+  padding-left: 20rpx;
+}
+.sex{
+  width: 620rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color:rgb(22, 22, 22);
+}
+.sex radio{
+  margin-left: 20px;
+}
+.rezhuce{
+  width: 100%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top: 1px solid #fff;
+  margin-top: 20rpx;
+}
+.conter button{
+  margin-top: 20rpx;
+  width: 620rpx;
+}

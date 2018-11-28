@@ -1,0 +1,5 @@
+<!--pages/upload/upload.wxml-->
+<view class='base'>
+    <view class='img'><image src='{{imagePath}}' class='img1'></image></view>
+    <button bindtap='uploadClick'>选择上传的文件</button>
+</view>
